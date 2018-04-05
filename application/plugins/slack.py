@@ -15,7 +15,7 @@ def save_bot(bot, user_id):
     bots[user_id] = bot
 
 
-@respond_to('(.*)')
+#@respond_to('(.*)')
 @listen_to('(.*)')
 def food(message, something):
     body = message.body
